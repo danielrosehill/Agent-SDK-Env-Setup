@@ -1,0 +1,132 @@
+{
+  "languages": {
+    "python": {
+      "name": "Python",
+      "sdks": {
+        "Arcade AI": {
+          "repo": "https://github.com/ArcadeAI/arcade-ai",
+          "install_commands": ["uv sync --extra all --dev"],
+          "description": "Arcade AI agent development kit"
+        },
+        "Google ADK": {
+          "repo": "https://github.com/google/adk-python",
+          "install_commands": ["pip install google-adk"],
+          "description": "Google Agent Development Kit"
+        },
+        "IBM Watson": {
+          "repo": "https://github.com/IBM/ibm-watsonx-orchestrate-adk",
+          "install_commands": ["pip install --upgrade ibm-watsonx-orchestrate"],
+          "description": "IBM Watson Orchestrate Agent Development Kit"
+        },
+        "Microsoft Agents": {
+          "repo": "https://github.com/microsoft/Agents",
+          "install_commands": [],
+          "description": "Microsoft Agent Framework"
+        },
+        "Nerve": {
+          "repo": "https://github.com/evilsocket/nerve",
+          "install_commands": ["pip install nerve-adk"],
+          "description": "Nerve agent development kit"
+        },
+        "OpenAI Agents": {
+          "repo": "https://github.com/openai/openai-agents-python",
+          "install_commands": [
+            "python -m venv .venv",
+            "source .venv/bin/activate && pip install openai-agents"
+          ],
+          "description": "OpenAI Agents Python SDK"
+        },
+        "Qwen Agent": {
+          "repo": "https://github.com/QwenLM/Qwen-Agent",
+          "install_commands": ["pip install -U \"qwen-agent[gui,rag,code_interpreter,mcp]\""],
+          "description": "Qwen Agent Framework"
+        },
+        "LangChain": {
+          "repo": "https://github.com/langchain-ai/langchain",
+          "install_commands": ["pip install langchain langchain-community"],
+          "description": "Popular AI agent framework with extensive ecosystem"
+        },
+        "LangGraph": {
+          "repo": "https://github.com/langchain-ai/langgraph",
+          "install_commands": ["pip install langgraph"],
+          "description": "Graph-based agent orchestration framework"
+        },
+        "CrewAI": {
+          "repo": "https://github.com/joaomdmoura/crewAI",
+          "install_commands": ["pip install crewai crewai-tools"],
+          "description": "Beginner-friendly multi-agent collaboration framework"
+        },
+        "AutoGen": {
+          "repo": "https://github.com/microsoft/autogen",
+          "install_commands": ["pip install pyautogen"],
+          "description": "Microsoft's multi-agent conversation framework"
+        },
+        "Semantic Kernel": {
+          "repo": "https://github.com/microsoft/semantic-kernel",
+          "install_commands": ["pip install semantic-kernel"],
+          "description": "Microsoft's enterprise AI orchestration framework"
+        },
+        "Claude Agent SDK": {
+          "repo": "https://github.com/anthropics/claude-agent-sdk-python",
+          "install_commands": ["pip install claude-agent-sdk"],
+          "description": "Anthropic's official Claude agent SDK for Python"
+        }
+      }
+    },
+    "typescript": {
+      "name": "TypeScript/JavaScript",
+      "sdks": {
+        "OpenAI Agents JS": {
+          "repo": "https://github.com/openai/openai-agents-js",
+          "install_commands": ["npm install"],
+          "description": "Official OpenAI TypeScript agent framework"
+        },
+        "Claude Agent SDK TS": {
+          "repo": "https://github.com/anthropics/claude-agent-sdk-typescript",
+          "install_commands": ["npm install"],
+          "description": "Anthropic's official Claude agent SDK for TypeScript"
+        },
+        "Microsoft Agents JS": {
+          "repo": "https://github.com/microsoft/Agents-for-js",
+          "install_commands": ["npm install"],
+          "description": "Microsoft M365 Agent SDK for JavaScript/TypeScript"
+        },
+        "ADK TypeScript": {
+          "repo": "https://github.com/njraladdin/adk-typescript",
+          "install_commands": ["npm install"],
+          "description": "TypeScript port of Google's Agent Development Kit"
+        },
+        "AgentKit": {
+          "repo": "https://github.com/inngest/agent-kit",
+          "install_commands": ["npm install"],
+          "description": "Multi-provider agent framework with MCP support"
+        },
+        "MCP SDK": {
+          "repo": "https://github.com/modelcontextprotocol/typescript-sdk",
+          "install_commands": ["npm install"],
+          "description": "Model Context Protocol TypeScript SDK"
+        }
+      }
+    },
+    "rust": {
+      "name": "Rust",
+      "sdks": {
+        "Anda": {
+          "repo": "https://github.com/ldclabs/anda",
+          "install_commands": ["cargo build --release"],
+          "description": "Rust AI agent framework with ICP and TEE support"
+        },
+        "rust-agentai": {
+          "repo": "https://github.com/AdamStrojek/rust-agentai",
+          "install_commands": ["cargo build --release"],
+          "description": "Rust library for creating AI agents"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-10-26",
+    "total_sdks": 21
+  }
+}
